@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap");
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./note_dmc_defaults.css" />
+    <!-- Marked -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.min.js"
+      defer
+    ></script> -->
+
+    <!-- Version 4 does not work -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.17/marked.min.js"
+      defer
+    ></script>
+
+    <script src="./noteApp.js" defer></script>
+
+    <title>Note App</title>
+  </head>
+  <body>
+    <button class="add-note-btn">
+      <i class="fa-solid fa-plus"></i>Add Note
+    </button>
+    <footer class="footer">@2022 DMC Projects</footer>
+  </body>
+</html>
+
+<!-- <div class="note">
+      <div class="tools">
+        <button class="edit-btn">
+          <i class="fa-solid fa-pen"></i>
+        </button>
+        <button class="delete-btn"><i class="fa-solid fa-trash"></i></button>
+      </div>
+      <div class="main-area hidden">
+       
+      </div>
+      <textarea class="text-area" name="text-area" id="text-area"></textarea>
+    </div>  -->
